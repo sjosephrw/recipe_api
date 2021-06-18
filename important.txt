@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/56696640/yaml-scanner-scannererror-while-scanning-for-the-next-token-found-character-t
+
+https://stackoverflow.com/questions/61052925/django-difference-between-django-admin-py-and-django-admin
