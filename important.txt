@@ -1,3 +1,17 @@
+docker-compose run app sh -c "django-admin.py startproject app ."
+
 https://stackoverflow.com/questions/56696640/yaml-scanner-scannererror-while-scanning-for-the-next-token-found-character-t
 
 https://stackoverflow.com/questions/61052925/django-difference-between-django-admin-py-and-django-admin
+
+https://londonappdeveloper.com/deploying-django-with-docker-compose/
+https://github.com/github/gitignore/blob/master/Python.gitignore
+
+
+https://stackoverflow.com/questions/11656761/git-please-tell-me-who-you-are-error
+git config --global user.email "Your email"
+git config --global user.name "Your full name"
+
+
+https://stackoverflow.com/questions/40957380/remote-invalid-username-or-password-fatal-authentication-failed
+https://docs.github.com/en/developers/apps/building-oauth-apps/scopes-for-oauth-apps
