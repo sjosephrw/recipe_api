@@ -1,0 +1,8 @@
+def add(x, y):
+	'''Adding 2 numbers together'''
+	return x + y
+
+def subtract(x, y):
+	'''Subtracting 2 numbers'''
+	return y - x
+

@@ -1,5 +1,19 @@
 docker-compose run app sh -c "django-admin.py startproject app ."
 
+docker-compose run app sh -c "python3 manage.py test"
+
+or when testing with flake8
+
+docker-compose run app sh -c "python3 manage.py test && flake8"
+
+docker-compose build
+
+# Create core app to share modules and resources used in other sub apps of the main app
+docker-compose run app sh -c "python3 manage.py startapp core"
+
+# migrations
+docker-compose run app sh -c "python3 manage.py makemigrations core"
+
 https://stackoverflow.com/questions/56696640/yaml-scanner-scannererror-while-scanning-for-the-next-token-found-character-t
 
 https://stackoverflow.com/questions/61052925/django-difference-between-django-admin-py-and-django-admin
